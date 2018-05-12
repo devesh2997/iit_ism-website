@@ -10,45 +10,249 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- css -->
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/yamm.css">
 
     <title>IIT (ISM) Dhanbad</title>
   </head>
   <body>
-    
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+
+    <!-- Top fixed navbar !-->    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
+      <div class="container">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="./index.html">
-            <img src="./assets/institute-crest.png" width="30" height="30" class="d-inline-block align-top" alt="institure-crest">
-          </a>
-        
-          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active" >
-                <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://172.16.8.45">MIS (Intranet)</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Alumni</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">IIT (ISM) Mail</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">IRAA</a>
-              </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-          </div>
-        </nav>
-    <!-- <h1>Hello, world!</h1> -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">
+              <img src="./assets/institute-crest.png" width="30" height="30" class="d-inline-block align-top" alt="institure-crest">
+            </a>
+          
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" >
+                  <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://172.16.8.45">MIS (Intranet)</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Alumni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IIT (ISM) Mail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">IRAA</a>
+                </li>
+              </ul>
+              <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form> -->
+            </div>
+      </div>
+     
+    </nav>
+    
+
+    <!-- secondary navigation !-->
+    <nav class="navbar yamm navbar-expand-md navbar-light" style="height:100px">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand align-middle" href="#" >
+              <strong class="font-weight-light" style="font-size:1.8em; color:black">IIT (ISM) Dhanbad</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav ml-auto navbar-right ">
+
+                  <!-- About section nav -->
+                  <li class="nav-item dropdown btn-group yamm-fw">
+                      <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">About</a>
+                      <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                          
+                        <div class="row" >
+                            <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                              <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                            </div>
+                            <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                              <div class="card-body text-justify">
+                                <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                              </div>
+                            </div>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Institute Crest</a></li>
+                                <li><a href="#">Vission and mission</a></li>
+                                <li><a href="#">Annual report</a></li>
+                            </ul>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">Assets</a></li>
+                                <li><a href="#">Archive</a></li>
+                                <li><a href="#">Statute of IIT (ISM)</a></li>
+                            </ul>
+                        </div>
+                          
+                      </div>
+                  </li>
+
+                  <!-- Admission section nav -->
+                  <li class="nav-item dropdown btn-group yamm-fw">
+                      <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Admission</a>
+                      <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                          
+                        <div class="row" >
+                            <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                              <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                            </div>
+                            <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                              <div class="card-body text-justify">
+                                <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                              </div>
+                            </div>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">JEE (Advanced)</a></li>
+                                <li><a href="#">Foreign students</a></li>
+                                <li><a href="#">M.Tech.</a></li>
+                                <li><a href="#">M.Sc.</a></li>
+                            </ul>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">M.Sc. Tech.</a></li>
+                                <li><a href="#">MBA</a></li>
+                                <li><a href="#">Ph.D.</a></li>
+                            </ul>
+                        </div>
+                          
+                      </div>
+                  </li>
+
+                  <!-- Administration section nav -->
+                  <li class="nav-item dropdown btn-group yamm-fw">
+                      <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Administration</a>
+                      <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                          
+                        <div class="row" >
+                            <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                              <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                            </div>
+                            <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                              <div class="card-body text-justify">
+                                <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                              </div>
+                            </div>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">JEE (Advanced)</a></li>
+                                <li><a href="#">Foreign students</a></li>
+                                <li><a href="#">M.Tech.</a></li>
+                                <li><a href="#">M.Sc.</a></li>
+                            </ul>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">M.Sc. Tech.</a></li>
+                                <li><a href="#">MBA</a></li>
+                                <li><a href="#">Ph.D.</a></li>
+                            </ul>
+                        </div>
+                          
+                      </div>
+                  </li>
+
+                  <!-- Academics section nav -->
+                  <li class="nav-item dropdown btn-group yamm-fw">
+                      <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Academics</a>
+                      <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                          
+                        <div class="row" >
+                            <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                              <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                            </div>
+                            <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                              <div class="card-body text-justify">
+                                <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                              </div>
+                            </div>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">JEE (Advanced)</a></li>
+                                <li><a href="#">Foreign students</a></li>
+                                <li><a href="#">M.Tech.</a></li>
+                                <li><a href="#">M.Sc.</a></li>
+                            </ul>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">M.Sc. Tech.</a></li>
+                                <li><a href="#">MBA</a></li>
+                                <li><a href="#">Ph.D.</a></li>
+                            </ul>
+                        </div>
+                          
+                      </div>
+                  </li>
+
+                  <!-- Research section nav -->
+                  <li class="nav-item dropdown btn-group yamm-fw">
+                      <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Research</a>
+                      <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                          
+                        <div class="row" >
+                            <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                              <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                            </div>
+                            <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                              <div class="card-body text-justify">
+                                <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                              </div>
+                            </div>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">JEE (Advanced)</a></li>
+                                <li><a href="#">Foreign students</a></li>
+                                <li><a href="#">M.Tech.</a></li>
+                                <li><a href="#">M.Sc.</a></li>
+                            </ul>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">M.Sc. Tech.</a></li>
+                                <li><a href="#">MBA</a></li>
+                                <li><a href="#">Ph.D.</a></li>
+                            </ul>
+                        </div>
+                          
+                      </div>
+                  </li>
+
+                  <!-- Campus Life section nav -->
+                  <li class="nav-item dropdown btn-group yamm-fw">
+                      <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Campus Life</a>
+                      <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                          
+                        <div class="row" >
+                            <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                              <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                            </div>
+                            <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                              <div class="card-body text-justify">
+                                <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                              </div>
+                            </div>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">JEE (Advanced)</a></li>
+                                <li><a href="#">Foreign students</a></li>
+                                <li><a href="#">M.Tech.</a></li>
+                                <li><a href="#">M.Sc.</a></li>
+                            </ul>
+                            <ul class="list-unstyled col-sm-2">
+                                <li><a href="#">M.Sc. Tech.</a></li>
+                                <li><a href="#">MBA</a></li>
+                                <li><a href="#">Ph.D.</a></li>
+                            </ul>
+                        </div>
+                          
+                      </div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--/.navbar-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
