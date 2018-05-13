@@ -1,0 +1,33 @@
+header {
+    height:100vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url('../assets/main-building-home.jpg');
+  }
+
+.secondary-navbar{
+    margin-top: 50px;
+}
+
+.header-text{
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 20px;
+  bottom: 20px;
+	background: #ab5a4f;
+
+
+}
+	
+
+footer{
+background: #161b29;
+color: white;
+
+
+}
+.stuff{
+	margin: 4px;
+}
