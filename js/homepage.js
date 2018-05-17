@@ -10,7 +10,7 @@ function navigation_notices(no) {
 
 	}
 	document.getElementById("notices").innerHTML ="<h3>"+ name+"</h3>";
-	document.getElementById("notices-inner-stuff").innerHTML ="<h3> "+ name+"</h3>";
+	document.getElementById("notices-inner-stuff").innerHTML ="<h3>"+ "notices from database here"+"</h3>";
 	
 	
 }
