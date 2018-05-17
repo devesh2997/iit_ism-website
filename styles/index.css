@@ -3,7 +3,7 @@ header {
     min-height:400px;
     background-size:cover;
     background-image:url('../assets/main-building-home.jpg');
-
+background-position: center center;
     
   }
 
@@ -15,12 +15,13 @@ header::before{
     bottom: 0;
     left: 0;
     background-image: linear-gradient(to bottom right,#002f4b,#000000);
-    opacity: .6; 
+    opacity: .3; 
       
 }
 
 .secondary-navbar{
     margin-top: 50px;
+
 }
 
 .header-text{
@@ -45,4 +46,19 @@ color: white;
 }
 .stuff{
 	margin: 4px;
+}
+.events-manager{
+  text-align: center;
+}
+.notice-nav{
+margin: 10px;
+margin-bottom: 20px;
+}
+.coloritrandom{
+  background: pink;
+
+}
+.center{
+text-orientation: center;
+margin-left: 10px;
 }

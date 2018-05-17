@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
 
+
+
     <!-- css -->
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/yamm.css">
@@ -20,6 +22,7 @@
     <title>IIT (ISM) Dhanbad</title>
   </head>
   <body>
+
         <header>
             <!-- secondary navigation !-->
             <nav class="navbar yamm navbar-expand-md navbar-dark secondary-navbar" style="height:100px">
@@ -55,7 +58,7 @@
                                     <img class="card-img-top" src="./assets/main-building.jpg" alt="">
                                     </div>
                                     <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
-                                    <div class="card-body text-justify">
+                                    <div class="card-body text-justify ">
                                         <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
                                     </div>
                                     </div>
@@ -306,18 +309,65 @@
         </div>
         <!--container-->
 
-        <div class="container-fluid" >
+        <div class="container " >
+        <div id="nav3" class="notice-nav "> 
+        <div class="row">
+        <div class="hidden-xs hidden-sm col-md-1 col-lg-1 col-xl-1"></div>
+            <div class ="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(0)"><h4> Short Courses</h4></a></div >
+            <div class ="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(1)"><h4> Exam/PhD</h4></a></div >
+            <div class ="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(2)"><h4> Notices</h4></a></div >
+            <div class ="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(3)"><h4> Seminar</h4></a></div >
+            <div class ="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(4)"><h4> Other info</h4></a></div >
+        <div class="hidden-xs hidden-sm  col-md-1 col-lg-1 col-xl-1"></div>
+        </div>
+        </div>
                 <div class="row"  >
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">      
-                    <h3> Events </h3>
+                  <div class="hidden-sm-down col-md-2 col-lg-2 col-xl-2 events-manager coloritrandom">      
+                    <h3> 0 </h3>
                   </div>  
           
-                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">        
-                    <h3> 2 </h3>
+                  <div  class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 events-manager">   
+                  <div id="notices" class="coloritrandom">     
+                    <h3 > Notices </h3>
+                    </div>
+
+                    <div class=" container coloritrandom notice-font-size">
+                    <div class="row">
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+<div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    
+
+
+
+                    </div>
+                    </div>
+
+
+
+
+
                   </div>  
           
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">        
-                    <h3> 1 </h3>
+                  <div class=" hidden-sm-down  col-md-2 col-lg-2 col-xl-2 events-manager coloritrandom">        
+                    <h3> 0 </h3>
                   </div>  
                 </div>
           
@@ -337,5 +387,7 @@
         </footer>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/homepage.js"></script>
+
   </body>
 </html>
