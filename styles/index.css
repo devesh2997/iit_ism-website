@@ -21,6 +21,7 @@ header::before{
 
 .secondary-navbar{
     margin-top: 50px;
+    cursor: pointer;  
 
 }
 
@@ -39,8 +40,8 @@ header::before{
 	
 
 footer{
-background: #161b29;
 color: white;
+    background-image:url('../assets/footer.jpg');
 
 
 }
@@ -55,10 +56,28 @@ margin: 10px;
 margin-bottom: 20px;
 }
 .coloritrandom{
-  background: pink;
+  background: skyblue;
 
 }
 .center{
 text-orientation: center;
 margin-left: 10px;
+}
+.footer-info{
+float: right;
+overflow: hidden;
+
+}
+
+.image-card{
+width: 100%;
+height: auto;
+
+}
+.caption{
+  
+}
+
+.first-row{
+  margin-top: 25px;
 }
