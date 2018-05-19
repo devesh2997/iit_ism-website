@@ -15,5 +15,12 @@ function navigation_notices(no) {
 	
 }
 
+ function resizeit(obj) {
+    obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+  }
 
 
+
+
+
+  
