@@ -129,3 +129,12 @@ display: block;
   border-style: dotted;
   overflow-y:scroll;
 }
+
+.notice{
+background-color: pink;
+margin: 3px;
+}
+.logo-links{
+  width: 30px;
+  margin: 5px;
+}
