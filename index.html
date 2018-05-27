@@ -5,48 +5,702 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
-    <title>Hello, world!</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/yamm.css">
+
+    <title>IIT (ISM) Dhanbad</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-md navbar-light bg-faded">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="./index.html">
-            <img src="./assets/institute-crest.png" width="30" height="30" class="d-inline-block align-top" alt="institure-crest">
-            IIT (ISM) Dhanbad
-          </a>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://172.16.8.45">MIS (Intranet)</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Alumni</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">IIT (ISM) Mail</a>
-                </li>
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
-          </div>
-        </nav>
-    <h1>Hello, world!</h1>
+ <nav class="navbar primary-navbar navbar-expand-md fixed-top  navbar-dark bg-dark ">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/institute-crest.png" width="30" height="30" class="d-inline-block align-top" alt="institure-crest">
+                </a>
+                
+                <div class="collapse navbar-collapse  " id="navbarSupportedContent" role="navigation">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active nav-item dropdown btn-group yamm-fw" >
+                            <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link" href="https://172.16.8.45">MIS (Intranet)</a>
+                        </li>
+                        <li class="nav-item nav-item dropdown btn-group yamm-fw" >
+                            <a class="nav-link" href="#">Alumni</a>
+                        </li>
+                        <li class="nav-item nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link" href="#">IIT (ISM) Mail</a>
+                        </li>
+                        <li class="nav-item nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link" href="#">IRAA</a>
+                        </li>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+                    </ul>
+
+                    <div class="display-small">
+                        <ul class="navbar-nav mr-auto">
+
+                       
+
+                    <li class=" dropdown ">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >About</a>
+                            <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
+                                    <ul>
+                                        <li><a href="#">Governing Body</a></li>
+                                        <li><a href="#">Chairman</a></li>
+                                        <li><a href="#">Director</a></li>
+                                        <li><a href="#">Academic Administration</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">General Administration</a></li>
+                                        <li><a href="#">Hostel Administration</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+        
+
+          <li class=" dropdown ">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Admission</a>
+                            <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
+                                    <ul>
+                                        <li><a href="#">Governing Body</a></li>
+                                        <li><a href="#">Chairman</a></li>
+                                        <li><a href="#">Director</a></li>
+                                        <li><a href="#">Academic Administration</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">General Administration</a></li>
+                                        <li><a href="#">Hostel Administration</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+        
+          <li class=" dropdown ">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Administration</a>
+                            <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
+                                    <ul>
+                                        <li><a href="#">Governing Body</a></li>
+                                        <li><a href="#">Chairman</a></li>
+                                        <li><a href="#">Director</a></li>
+                                        <li><a href="#">Academic Administration</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">General Administration</a></li>
+                                        <li><a href="#">Hostel Administration</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+        
+          <li class=" dropdown ">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Academics</a>
+                            <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
+                                    <ul>
+                                        <li><a href="#">Governing Body</a></li>
+                                        <li><a href="#">Chairman</a></li>
+                                        <li><a href="#">Director</a></li>
+                                        <li><a href="#">Academic Administration</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">General Administration</a></li>
+                                        <li><a href="#">Hostel Administration</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+        
+          <li class=" dropdown ">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Research</a>
+                            <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
+                                    <ul>
+                                        <li><a href="#">Governing Body</a></li>
+                                        <li><a href="#">Chairman</a></li>
+                                        <li><a href="#">Director</a></li>
+                                        <li><a href="#">Academic Administration</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">General Administration</a></li>
+                                        <li><a href="#">Hostel Administration</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+        
+          <li class=" dropdown ">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Camous life</a>
+                            <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
+                                    <ul>
+                                        <li><a href="#">Governing Body</a></li>
+                                        <li><a href="#">Chairman</a></li>
+                                        <li><a href="#">Director</a></li>
+                                        <li><a href="#">Academic Administration</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">General Administration</a></li>
+                                        <li><a href="#">Hostel Administration</a></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+        
+
+
+
+
+
+
+
+
+
+                    </ul>
+
+                    </div>
+                </div>
+            </div>                
+        </nav>
+        <header> <!-- secondary navigation !-->
+            <nav class="navbar yamm navbar-expand-md navbar-dark secondary-navbar" style="height:100px" role="navigation">
+
+                <div class="container">
+                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand align-middle" href="#" >
+                    <strong class="font-weight-light" style="font-size:1.8em; color:#ffffff">IIT (ISM) Dhanbad</strong>
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarNav1">
+                        <ul class="navbar-nav ml-auto navbar-right ">        
+                        <!-- About section nav -->
+                        <li class="nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">About</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                                
+                                <div class="row" >
+                                    <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    </div>
+                                    <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                                    <div class="card-body text-justify ">
+                                        <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                                    </div>
+                                    </div>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Overview</a></li>
+                                        <li><a href="#">Institute Crest</a></li>
+                                        <li><a href="#">Vission and mission</a></li>
+                                        <li><a href="#">Annual report</a></li>
+                                    </ul>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Assets</a></li>
+                                        <li><a href="#">Archive</a></li>
+                                        <li><a href="#">Statute of IIT (ISM)</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+        
+                        <!-- Admission section nav -->
+                        <li class="nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Admission</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                                
+                                <div class="row" >
+                                    <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    </div>
+                                    <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                                    <div class="card-body text-justify">
+                                        <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                                    </div>
+                                    </div>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">JEE (Advanced)</a></li>
+                                        <li><a href="#">Foreign students</a></li>
+                                        <li><a href="#">M.Tech.</a></li>
+                                        <li><a href="#">M.Sc.</a></li>
+                                    </ul>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">M.Sc. Tech.</a></li>
+                                        <li><a href="#">MBA</a></li>
+                                        <li><a href="#">Ph.D.</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+        
+                        <!-- Administration section nav -->
+                        <li class="nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Administration</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                                
+                                <div class="row" >
+                                    <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    </div>
+                                    <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                                    <div class="card-body text-justify">
+                                        <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                                    </div>
+                                    </div>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Governing Body</a></li>
+                                        <li><a href="#">Chairman</a></li>
+                                        <li><a href="#">Director</a></li>
+                                        <li><a href="#">Academic Administration</a></li>
+                                    </ul>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">General Administration</a></li>
+                                        <li><a href="#">Hostel Administration</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+        
+                        <!-- Academics section nav -->
+                        <li class="nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Academics</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                                
+                                <div class="row" >
+                                    <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    </div>
+                                    <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                                    <div class="card-body text-justify">
+                                        <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                                    </div>
+                                    </div>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Departments and Centers</a></li>
+                                        <li><a href="#">Academic Calender</a></li>
+                                        <li><a href="#">Central Library</a></li>
+                                        <li><a href="#">Continuing Education</a></li>
+                                    </ul>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Convocation</a></li>
+                                        <li><a href="#">D.Sc Awarded</a></li>
+                                        <li><a href="#">Ph.D. Awarded</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+        
+                        <!-- Research section nav -->
+                        <li class="nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Research</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                                
+                                <div class="row" >
+                                    <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    </div>
+                                    <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                                    <div class="card-body text-justify">
+                                        <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                                    </div>
+                                    </div>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Research Award</a></li>
+                                        <li><a href="#">Research Facilities</a></li>
+                                        <li><a href="#">Thrust Area</a></li>
+                                        <li><a href="#">Central Research Facility</a></li>
+                                    </ul>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Collaboration</a></li>
+                                        <li><a href="#">R & D Projects</a></li>
+                                        <li><a href="#">Consultancy Projects</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+        
+                        <!-- Campus Life section nav -->
+                        <li class="nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">Campus Life</a>
+                            <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
+                                
+                                <div class="row" >
+                                    <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
+                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    </div>
+                                    <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
+                                    <div class="card-body text-justify">
+                                        <p class="card-text">Situated in the heart of the country’s prime coking coal belt, with a campus spread over an area of 393 acres, the fully residential IIT(ISM) has all the facilities of world class academic institute.</p>
+                                    </div>
+                                    </div>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Overview</a></li>
+                                        <li><a href="#">Events & attractions</a></li>
+                                        <li><a href="#">Sports</a></li>
+                                        <li><a href="#">Photo gallery</a></li>
+                                    </ul>
+                                    <ul class="list-unstyled col-sm-2">
+                                        <li><a href="#">Health & safety</a></li>
+                                        <li><a href="#">Student organizations</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+                </nav>
+                <!--/.navbar-->
+            <div class="header-text"> 
+                <div class="container">
+                    <h3>IIT ISM</h3>
+                    <p>Heritage in living</p>
+                </div>
+            </div>
+        </header>
+
+
+       
+            
+        <div class="container">
+        <div class="tiles">
+
+
+    <div class="row tilesrow">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+ 
+                 <a href="#" >
+                    
+                                <img src="assets/oval.jpg" alt="" class="img img-responsive image-card" />
+                  
+                    <div class="caption">
+                        <h4>Lovely scene of IIT ISM</h4>
+                    </div>
+                </a>
+            
+            </div>
+
+<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+ 
+                 <a href="#" >
+                    
+                                <img src="assets/oval.jpg" alt="" class="img img-responsive image-card" />
+                  
+                    <div class="caption">
+                        <h4>Lovely scene of IIT ISM</h4>
+                    </div>
+                </a>
+            
+            </div>
+
+<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+ 
+                
+<div id="test" class="caption">
+                        <h5>Events</h5>
+                        <div class="scroll ">
+                            <div class="event-item">
+                            <div class="row">
+                            <div class="col-2 date " onload="resizeit(this)">
+                                    <h4>May</h4>
+                                    <h2>27</h2>
+                            </div>
+                            <div class="col-10 date">
+                                    <a href=""><h4>this is a notice to all of u !!!!!!!!!1 see it dude</h4></a>
+                                    
+                            </div>
+                               
+
+                            </div>
+
+
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+            </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+        <div class="row tilesrow">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+ 
+                 <a href="#" >
+                    
+                                <img src="assets/main-building.jpg" alt="" class="img img-responsive image-card" />
+                  
+                    <div class="caption">
+                        <h4>Lovely scene of IIT ISM</h4>
+                    </div>
+                </a>
+            
+            </div>
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+ 
+                 <a href="#" >
+                    
+                                <img src="assets/main-building.jpg" alt="" class="img img-responsive image-card" />
+                  
+                    <div class="caption">
+                        <h4>Lovely scene of IIT ISM</h4>
+                    </div>
+                </a>
+            
+            </div>
+
+              <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
+ 
+                 <a href="#" >
+                    
+                                <img src="assets/main-building.jpg" alt="" class="img img-responsive image-card" />
+                  
+                    <div class="caption">
+                        <h4>Lovely scene of IIT ISM</h4>
+                    </div>
+                </a>
+            
+            </div>
+
+
+        </div>
+
+
+
+
+
+       
+
+    
+            
+
+
+
+
+
+
+
+
+
+        </div>
+            
+
+        </div>
+
+
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Content...</h3>
+                    <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
+                        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+        
+                    <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
+                        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
+                        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+                    <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
+                        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+        
+                    <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
+                        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
+                        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+                </div>
+            </div>
+            <!--/row-->
+        </div>
+        <!--container-->
+
+        <div class="container " >
+        <div id="nav3" class="notice-nav "> 
+        <div class="row nav-class-3">
+        <div class="hidden-xs hidden-sm col-md-1 col-lg-1 col-xl-1 "></div>
+            <div class ="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(0)"><h4> Short Courses</h4></a></div >
+            <div class ="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(1)"><h4> Exam/ PhD</h4></a></div >
+            <div class ="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(2)"><h4> Notices</h4></a></div >
+            <div class ="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(3)"><h4> Seminar</h4></a></div >
+            <div class ="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 center"><a href="javascript:;" onclick="navigation_notices(4)"><h4> Other info</h4></a></div >
+        <div class="hidden-xs hidden-sm  col-md-1 col-lg-1 col-xl-1"></div>
+        </div>
+        </div>
+                <div class="row"  >
+                  <div class="display-large col-md-2 col-lg-2 col-xl-2 events-manager ">      
+                  </div>  
+          
+                  <div  class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 events-manager">   
+                  <div id="notices" class="">     
+                    <h3 > Notices </h3>
+                    </div>
+
+                    <div class=" container  notice-font-size ">
+                    <div id="notices-inner-stuff" class="row notice-view">
+                    <div  class=" col-12 notice">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    <div class="col-12">
+                    <a href=""> <h4>
+                    this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                    
+                    
+
+
+
+                    </div>
+                    </div>
+
+
+
+
+
+                  </div>  
+          
+                  <div class=" display-large  col-md-2 col-lg-2 col-xl-2 events-manager ">        
+                  </div>  
+                </div>
+          
+              </div>     
+                        
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+                    blabla stuff
+        <footer>
+            <div class="container-fluid">
+            <div class="row">
+            <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2 col-xl-2">
+             
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    
+                    <strong class="font-weight-light" style="font-size:1.8em; color:#ffffff">IIT (ISM) Dhanbad</strong><br>
+                   <a href=""> <img class="logo-links" src="assets/facebook.png"></a>
+                   <a href=""> <img class="logo-links" src="assets/twitter.png"></a><br><br>
+
+                    
+
+
+
+              </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div ><h3>Contact us</h3></div>
+                 <ul>
+                    <li>
+Main Campus<br>
+Indian Institute of Technology Dhanbad,<br>
+Jharkhand, India, 826004<br>
+Phone- 0326-2235001 ,2235004<br>
+Fax- 0326-2296563<br>
+</li>
+              <a href=""> Telephone Directory</a>
+                    
+                </ul> 
+                 </div>
+
+
+             </div>
+             </div>
+            Copyright © Indian Institute of Technology ( Indian School of Mines ) Dhanbad
+            
+        </footer>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/homepage.js"></script>
+
   </body>
 </html>
