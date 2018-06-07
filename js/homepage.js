@@ -1,25 +1,3 @@
-// Google Expando Method
-// =====================================================
-
-function googleExpandoToggle() {
-  $(this).toggleClass('active');
-  $(this).next().toggleClass('active');
-  $expando_card = $('.google-expando__card');
-
-  // ARIA
-  $expando_card.attr('aria-hidden') === 'true' ? $expando_card.attr('aria-hidden', 'false') : $expando_card.attr('aria-hidden', 'true');
-}
-
-
-// Google Expando Event
-// =====================================================
-
-$('.google-expando__icon').on('click', function() {
-  googleExpandoToggle.call(this);
-});
-
-
-
 function navigation_notices(no) {
 	var name;
 	switch(no){
@@ -45,30 +23,71 @@ function navigation_notices(no) {
 
 
 
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+
+function dialog_box(a,b,c){
+a.onclick = function() {
+    b.style.display = "block";
+
+}
+c.onclick = function() {
+    b.style.display = "none";
+}
+window.onclick = function(event) {
+
+    if (event.target == b) {
+        b.style.display = "none";
+
+    }
+}
+}
+
+
+
+
   
 
 
 
-
+var btn = document.getElementById("annual-report");
 var modal = document.getElementById('myModal');
+var span = document.getElementById("close42");
+dialog_box(btn,modal,span);
 
-var btn = document.getElementById("myBtn");
 
-var span = document.getElementsByClassName("close")[0];
+var btn2 = document.getElementById("governing-body");
+var modal2 = document.getElementById('myModal2');
+var span2 = document.getElementsByClassName("close244");
 
-btn.onclick = function() {
-    modal.style.display = "block";
+dialog_box(btn2,modal2,span2);
+
+span2.onclick = function() {
+    modal2.style.display = "none";
 }
 
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+var btn = document.getElementById("academic-administration");
+var modal = document.getElementById('myModal3');
+var span = document.getElementsByClassName("close3");
+dialog_box(btn,modal,span);
 
 
-var modal2 = document.getElementById('modal2');
+
+
+
+
+

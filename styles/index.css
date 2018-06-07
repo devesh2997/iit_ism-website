@@ -24,7 +24,7 @@ header::before{
 .secondary-navbar{
     cursor: pointer;  
     text-anchor: 0,0;
-    background:  linear-gradient(to bottom right, rgb(0,0,0,0.9),  rgb(128,128,128,0.2) );
+    background:  linear-gradient(to bottom , rgb(0,0,0,0.95),rgb(0,0,0,0.9),  rgb(0,0,0,0.6),rgb(128,128,128,0.05) );
 
 }
 
@@ -244,4 +244,20 @@ background-color: #E8985E;
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.content{
+  font-size: 1.5em;
+  display: none;
+}
+.collapsible{
+  margin: 9px;
+  color: darkblue;
+  cursor: pointer;
+  background-color: lightgrey;
+  border-radius: 0.2em;
+}
+.nav-mini-link{
+  color: #551A8B;
+  cursor: pointer;
 }
