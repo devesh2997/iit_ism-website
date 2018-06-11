@@ -20,7 +20,9 @@ header::before{
     opacity: 0; 
       
 }
-
+.primary-navbar{
+  z-index: 1;
+}
 .secondary-navbar{
     cursor: pointer;  
     text-anchor: 0,0;
@@ -105,6 +107,7 @@ height: auto;
 
 
 
+
  .secondary-navbar {
 display: none;
  }
@@ -126,7 +129,21 @@ top: 0px;
 .display-large{
   display: none;
 }
-@media (min-width: 768px){.display-large{
+@media (min-width: 1200px){
+
+
+.quick-links-list{
+
+margin: 4%;
+}
+}
+
+
+@media (min-width: 768px){
+
+
+
+  .display-large{
 display: block;
 
 }
@@ -171,7 +188,7 @@ padding: 6px;
   background-color: #BFDBF7;
 
 border-radius: 13px;
-overflow: hidden;
+
   
 }
 .quick-links button{
@@ -183,10 +200,12 @@ overflow: hidden;
   color: white;
 width: 92%;
 background-color:orange;
-margin: 4%;
+margin-right : 4%;
+margin-left  : 4%;
+
 display: table;
 border-radius: 13px;
-
+margin-top: 1.3%;
 }
 .quick-links-list:hover{
   border: grey;
@@ -204,14 +223,17 @@ background-color: #E8985E;
 
 
 
-
-
+.linkcursor
+{
+  cursor: pointer;
+  
+}
 
 
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;

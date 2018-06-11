@@ -40,7 +40,13 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
-function dialog_box(a,b,c){
+function dialog_box(asmall,a,b,c){
+	
+asmall.onclick = function() {
+    b.style.display = "block";
+
+}
+
 a.onclick = function() {
     b.style.display = "block";
 
@@ -59,35 +65,50 @@ window.onclick = function(event) {
 
 
 
-
-  
-
-
-
+var btnsmall = document.getElementById("annual-reportsmall");
 var btn = document.getElementById("annual-report");
 var modal = document.getElementById('myModal');
 var span = document.getElementById("close42");
-dialog_box(btn,modal,span);
+dialog_box(btnsmall,btn,modal,span);
 
+var btnsmall = document.getElementById("governing-bodysmall");
+var btn = document.getElementById("governing-body");
+var modal = document.getElementById('myModal2');
+var span = document.getElementById("close244");
+dialog_box(btnsmall,btn,modal,span);
 
-var btn2 = document.getElementById("governing-body");
-var modal2 = document.getElementById('myModal2');
-var span2 = document.getElementsByClassName("close244");
-
-dialog_box(btn2,modal2,span2);
-
-span2.onclick = function() {
-    modal2.style.display = "none";
-}
-
+var btnsmall = document.getElementById("academic-administrationsmall");
 var btn = document.getElementById("academic-administration");
 var modal = document.getElementById('myModal3');
-var span = document.getElementsByClassName("close3");
-dialog_box(btn,modal,span);
+var span = document.getElementById("close3");
+dialog_box(btnsmall,btn,modal,span);
 
+var btnsmall = document.getElementById("general-administrationsmall");
+var btn = document.getElementById("general-administration");
+var modal = document.getElementById('myModal4');
+var span = document.getElementById("close4");
+dialog_box(btnsmall,btn,modal,span);
 
+var btnsmall = document.getElementById("research-awardsmall");
+var btn = document.getElementById("research-award");
+var modal = document.getElementById('myModal5');
+var span = document.getElementById("close5");
+dialog_box(btnsmall,btn,modal,span);
 
+var btnsmall = document.getElementById("collaborationsmall");
+var btn = document.getElementById("collaboration");
+var modal = document.getElementById('myModal6');
+var span = document.getElementById("close6");
+dialog_box(btnsmall,btn,modal,span);
 
+var btnsmall = document.getElementById("r-d-projectsmall");
+var btn = document.getElementById("r-d-project");
+var modal = document.getElementById('myModal7');
+var span = document.getElementById("close7");
+dialog_box(btnsmall,btn,modal,span);
 
-
-
+var btnsmall = document.getElementById("consultancy-projectssmall");
+var btn = document.getElementById("consultancy-projects");
+var modal = document.getElementById('myModal8');
+var span = document.getElementById("close8");
+dialog_box(btnsmall,btn,modal,span);
