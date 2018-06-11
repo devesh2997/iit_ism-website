@@ -26,7 +26,7 @@ header::before{
 .secondary-navbar{
     cursor: pointer;  
     text-anchor: 0,0;
-    background:  linear-gradient(to bottom , rgb(0,0,0,0.95),rgb(0,0,0,0.9),  rgb(0,0,0,0.6),rgb(128,128,128,0.05) );
+    background:  linear-gradient(to bottom , rgb(0,0,0,0.95),rgb(0,0,0,0.9),  rgb(0,0,0,0.8),rgb(0,0,0,0.4),rgb(128,128,128,0.05) );
 
 }
 
@@ -76,7 +76,7 @@ height: auto;
 
 }
 .caption{
-  color: darkorange;
+  color: black;
 }
 
 .tilesrow{
@@ -282,4 +282,8 @@ background-color: #E8985E;
 .nav-mini-link{
   color: #551A8B;
   cursor: pointer;
+}
+
+#events .row{
+  margin-top: 15px;
 }
