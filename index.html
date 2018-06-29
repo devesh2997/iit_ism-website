@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- favicon -->
+
+
+
+
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
-
 
 
 
@@ -19,6 +22,7 @@
     <link rel="stylesheet" href="./styles/yamm.css">
 
     <title>IIT (ISM) Dhanbad</title>
+    
   </head>
   <body>
  <nav class="navbar primary-navbar navbar-expand-md fixed-top  navbar-dark bg-dark ">
@@ -39,18 +43,21 @@
                             <a class="nav-link" href="https://172.16.8.45">MIS (Intranet)</a>
                         </li>
                         <li class="nav-item nav-item dropdown btn-group yamm-fw" >
-                            <a class="nav-link" href="#">Alumni</a>
+                            <a class="nav-link" href="alumni.html">Alumni</a>
                         </li>
                         <li class="nav-item nav-item dropdown btn-group yamm-fw">
-                            <a class="nav-link" href="#">IIT (ISM) Mail</a>
+                            <a class="nav-link" href="http://mail.iitism.ac.in/">IIT (ISM) Mail</a>
                         </li>
                         <li class="nav-item nav-item dropdown btn-group yamm-fw">
-                            <a class="nav-link" href="#">IRAA</a>
+                            <a class="nav-link" href="iraa.html">IRAA</a>
+                        </li>
+                         <li class="nav-item nav-item dropdown btn-group yamm-fw">
+                            <a class="nav-link" href="login-portal.html">Login Portal</a>
                         </li>
 
                     </ul>
 
-                    <div class="display-small">
+                    <div class="display-small linkcursor">
                         <ul class="navbar-nav mr-auto">
 
                        
@@ -58,15 +65,16 @@
                     <li class=" dropdown ">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >About</a>
                             <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
-                                    <ul>
-                                        <li><a href="#">Governing Body</a></li>
-                                        <li><a href="#">Chairman</a></li>
-                                        <li><a href="#">Director</a></li>
-                                        <li><a href="#">Academic Administration</a></li>
+                                    <ul class="list-unstyled ">
+                                        <li><a href="about/overview.html">Overview</a></li>
+                                        <li><a href="about/institute-crest.html">Institute Crest</a></li>
+                                        <li><a href="about/vission-mission.html">Vission and mission</a></li>
+                                        <li><a  id="annual-reportsmall" href="#">Annual report</a></li>
                                     </ul>
-                                    <ul>
-                                        <li><a href="#">General Administration</a></li>
-                                        <li><a href="#">Hostel Administration</a></li>
+                                    <ul class="list-unstyled ">
+                                        <li><a href="about/assets.pdf" target="blank">Assets</a></li>
+                                        <li><a href="about/archive.html">Archive</a></li>
+                                        <li><a href="about/statute.pdf" target="blank">Statute of IIT (ISM)</a></li>
                                     </ul>
                                 
                             </div>
@@ -76,32 +84,32 @@
           <li class=" dropdown ">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Admission</a>
                             <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
-                                    <ul>
-                                        <li><a href="#">Governing Body</a></li>
-                                        <li><a href="#">Chairman</a></li>
-                                        <li><a href="#">Director</a></li>
-                                        <li><a href="#">Academic Administration</a></li>
+                                     <ul class="list-unstyled ">
+                                        <li><a href="admission/jee-adv.html">JEE (Advanced)</a></li>
+                                        <li><a href="admission/foreign_students.pdf" target="blank">Foreign students</a></li>
+                                        <li><a href="admission/m-tech.html">M.Tech.</a></li>
+                                        <li><a href="admission/m-sc.html">M.Sc.</a></li>
                                     </ul>
-                                    <ul>
-                                        <li><a href="#">General Administration</a></li>
-                                        <li><a href="#">Hostel Administration</a></li>
-                                    </ul>
-                                
+                                    <ul class="list-unstyled ">
+                                        <li><a href="admission/m-sc-tech.html">M.Sc. Tech.</a></li>
+                                        <li><a href="admission/mba.html">MBA</a></li>
+                                        <li><a href="admission/phd.html">Ph.D.</a></li>
+                                    </ul>                                
                             </div>
                         </li>
         
           <li class=" dropdown ">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Administration</a>
                             <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
-                                    <ul>
-                                        <li><a href="#">Governing Body</a></li>
-                                        <li><a href="#">Chairman</a></li>
-                                        <li><a href="#">Director</a></li>
-                                        <li><a href="#">Academic Administration</a></li>
+                                    <ul class="list-unstyled ">
+                                        <li><a id="governing-bodysmall" href="#">Governing Body</a></li>
+                                        <li><a href="administration/chairman.html">Chairman</a></li>
+                                        <li><a href="administration/director.html">Director</a></li>
+                                        <li><a  id="academic-administrationsmall" href="#">Academic Administration</a></li>
                                     </ul>
-                                    <ul>
-                                        <li><a href="#">General Administration</a></li>
-                                        <li><a href="#">Hostel Administration</a></li>
+                                    <ul class="list-unstyled ">
+                                        <li><a id="general-administrationsmall" href="#">General Administration</a></li>
+                                        <li><a href="administration/hostel-administration.html">Hostel Administration</a></li>
                                     </ul>
                                 
                             </div>
@@ -110,15 +118,17 @@
           <li class=" dropdown ">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Academics</a>
                             <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
-                                    <ul>
-                                        <li><a href="#">Governing Body</a></li>
-                                        <li><a href="#">Chairman</a></li>
-                                        <li><a href="#">Director</a></li>
-                                        <li><a href="#">Academic Administration</a></li>
+                                   <ul class="list-unstyled ">
+                                        <li><a href="academics/departments-centers.html">Departments and Centers</a></li>
+                                        <li><a href="academics/academic-calander.html">Academic Calender</a></li>
+                                        <li><a href="academics/central-library.html">Central Library</a></li>
+                                        <li><a href="academics/continuing-education.html">Continuing Education</a></li>
                                     </ul>
-                                    <ul>
-                                        <li><a href="#">General Administration</a></li>
-                                        <li><a href="#">Hostel Administration</a></li>
+                                    <ul class="list-unstyled ">
+                                        <li><a href="academics/convocation.html">Convocation</a></li>
+                                        <li><a href="academics/dsc-awarded.html">D.Sc Awarded</a></li>
+                                        <li><a href="academics/phd-awarded.html">Ph.D. Awarded</a></li>
+                                        <li><a href="academics/faculty-members.html">Faculty Members</a></li>
                                     </ul>
                                 
                             </div>
@@ -127,32 +137,33 @@
           <li class=" dropdown ">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Research</a>
                             <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
-                                    <ul>
-                                        <li><a href="#">Governing Body</a></li>
-                                        <li><a href="#">Chairman</a></li>
-                                        <li><a href="#">Director</a></li>
-                                        <li><a href="#">Academic Administration</a></li>
+                                 <ul class="list-unstyled ">
+                                        <li><a id="research-awardsmall" href="#">Research Award</a></li>
+                                        <li><a href="research/research-facilities.html">Research Facilities</a></li>
+                                        <li><a href="research/thrust-area.html">Thrust Area</a></li>
+                                        <li><a href="research/central-research-facility.html">Central Research Facility</a></li>
                                     </ul>
-                                    <ul>
-                                        <li><a href="#">General Administration</a></li>
-                                        <li><a href="#">Hostel Administration</a></li>
+                                    <ul class="list-unstyled ">
+                                        <li><a id="collaborationsmall" href="#">Collaboration</a></li>
+                                        <li><a id="r-d-projectsmall" href="#">R & D Projects</a></li>
+                                        <li><a id="consultancy-projectssmall" href="#">Consultancy Projects</a></li>
                                     </ul>
                                 
                             </div>
                         </li>
         
           <li class=" dropdown ">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Camous life</a>
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" >Campus life</a>
                             <div class="dropdown-menu" aria-labelledby="" style="padding:20px">
-                                    <ul>
-                                        <li><a href="#">Governing Body</a></li>
-                                        <li><a href="#">Chairman</a></li>
-                                        <li><a href="#">Director</a></li>
-                                        <li><a href="#">Academic Administration</a></li>
+                                       <ul class="list-unstyled ">
+                                        <li><a href="campus-life/campus-life.html">Overview</a></li>
+                                        <li><a href="#">Events & attractions</a></li>
+                                        <li><a href="#">Sports</a></li>
+                                        <li><a href="#">Photo gallery</a></li>
                                     </ul>
-                                    <ul>
-                                        <li><a href="#">General Administration</a></li>
-                                        <li><a href="#">Hostel Administration</a></li>
+                                    <ul class="list-unstyled ">
+                                        <li><a href="#">Health & safety</a></li>
+                                        <li><a href="#">Student organizations</a></li>
                                     </ul>
                                 
                             </div>
@@ -174,6 +185,7 @@
             </div>                
         </nav>
         <header> <!-- secondary navigation !-->
+          
             <nav class="navbar yamm navbar-expand-md navbar-dark secondary-navbar" style="height:100px" role="navigation">
 
                 <div class="container">
@@ -187,12 +199,12 @@
                         <ul class="navbar-nav ml-auto navbar-right ">        
                         <!-- About section nav -->
                         <li class="nav-item dropdown btn-group yamm-fw">
-                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">About</a>
+                            <a class="nav-link dropdown-toggle " id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size:1.2em">About</a>
                             <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1 " style="padding:20px">
                                 
                                 <div class="row" >
                                     <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
-                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    <img class="card-img-top" src="./assets/about.jpg" alt="">
                                     </div>
                                     <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
                                     <div class="card-body text-justify ">
@@ -200,15 +212,15 @@
                                     </div>
                                     </div>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Overview</a></li>
-                                        <li><a href="#">Institute Crest</a></li>
-                                        <li><a href="#">Vission and mission</a></li>
-                                        <li><a href="#">Annual report</a></li>
+                                        <li><a href="about/overview.html">Overview</a></li>
+                                        <li><a href="about/institute-crest.html">Institute Crest</a></li>
+                                        <li><a href="about/vission-mission.html">Vission and mission</a></li>
+                                        <li><a  id="annual-report" href="#">Annual report</a></li>
                                     </ul>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Assets</a></li>
-                                        <li><a href="#">Archive</a></li>
-                                        <li><a href="#">Statute of IIT (ISM)</a></li>
+                                        <li><a href="about/assets.pdf" target="blank">Assets</a></li>
+                                        <li><a href="about/archive.html">Archive</a></li>
+                                        <li><a href="about/statute.pdf" target="blank">Statute of IIT (ISM)</a></li>
                                     </ul>
                                 </div>
                                 
@@ -222,7 +234,7 @@
                                 
                                 <div class="row" >
                                     <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
-                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    <img class="card-img-top" src="./assets/admission.jpg" alt="">
                                     </div>
                                     <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
                                     <div class="card-body text-justify">
@@ -230,15 +242,15 @@
                                     </div>
                                     </div>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">JEE (Advanced)</a></li>
-                                        <li><a href="#">Foreign students</a></li>
-                                        <li><a href="#">M.Tech.</a></li>
-                                        <li><a href="#">M.Sc.</a></li>
+                                        <li><a href="admission/jee-adv.html">JEE (Advanced)</a></li>
+                                        <li><a href="admission/foreign_students.pdf" target="blank">Foreign students</a></li>
+                                        <li><a href="admission/m-tech.html">M.Tech.</a></li>
+                                        <li><a href="admission/m-sc.html">M.Sc.</a></li>
                                     </ul>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">M.Sc. Tech.</a></li>
-                                        <li><a href="#">MBA</a></li>
-                                        <li><a href="#">Ph.D.</a></li>
+                                        <li><a href="admission/m-sc-tech.html">M.Sc. Tech.</a></li>
+                                        <li><a href="admission/mba.html">MBA</a></li>
+                                        <li><a href="admission/phd.html">Ph.D.</a></li>
                                     </ul>
                                 </div>
                                 
@@ -252,7 +264,7 @@
                                 
                                 <div class="row" >
                                     <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
-                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    <img class="card-img-top" src="./assets/administration.jpg" alt="">
                                     </div>
                                     <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
                                     <div class="card-body text-justify">
@@ -260,14 +272,14 @@
                                     </div>
                                     </div>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Governing Body</a></li>
-                                        <li><a href="#">Chairman</a></li>
-                                        <li><a href="#">Director</a></li>
-                                        <li><a href="#">Academic Administration</a></li>
+                                        <li><a id="governing-body" href="#">Governing Body</a></li>
+                                        <li><a href="administration/chairman.html">Chairman</a></li>
+                                        <li><a href="administration/director.html">Director</a></li>
+                                        <li><a  id="academic-administration" href="#">Academic Administration</a></li>
                                     </ul>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">General Administration</a></li>
-                                        <li><a href="#">Hostel Administration</a></li>
+                                        <li><a id="general-administration" href="#">General Administration</a></li>
+                                        <li><a href="administration/hostel-administration.html">Hostel Administration</a></li>
                                     </ul>
                                 </div>
                                 
@@ -281,7 +293,7 @@
                                 
                                 <div class="row" >
                                     <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
-                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    <img class="card-img-top" src="./assets/academics.jpg" alt="">
                                     </div>
                                     <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
                                     <div class="card-body text-justify">
@@ -289,15 +301,16 @@
                                     </div>
                                     </div>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Departments and Centers</a></li>
-                                        <li><a href="#">Academic Calender</a></li>
-                                        <li><a href="#">Central Library</a></li>
-                                        <li><a href="#">Continuing Education</a></li>
+                                        <li><a href="academics/departments-centers.html">Departments and Centers</a></li>
+                                        <li><a href="academics/academic-calander.html">Academic Calender</a></li>
+                                        <li><a href="academics/central-library.html">Central Library</a></li>
+                                        <li><a href="academics/continuing-education.html">Continuing Education</a></li>
                                     </ul>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Convocation</a></li>
-                                        <li><a href="#">D.Sc Awarded</a></li>
-                                        <li><a href="#">Ph.D. Awarded</a></li>
+                                        <li><a href="academics/convocation.html">Convocation</a></li>
+                                        <li><a href="academics/dsc-awarded.html">D.Sc Awarded</a></li>
+                                        <li><a href="academics/phd-awarded.html">Ph.D. Awarded</a></li>
+                                        <li><a href="academics/faculty-members.html">Faculty Members</a></li>
                                     </ul>
                                 </div>
                                 
@@ -311,7 +324,7 @@
                                 
                                 <div class="row" >
                                     <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
-                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    <img class="card-img-top" src="./assets/research.jpg" alt="">
                                     </div>
                                     <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
                                     <div class="card-body text-justify">
@@ -319,15 +332,15 @@
                                     </div>
                                     </div>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Research Award</a></li>
-                                        <li><a href="#">Research Facilities</a></li>
-                                        <li><a href="#">Thrust Area</a></li>
-                                        <li><a href="#">Central Research Facility</a></li>
+                                        <li><a id="research-award" href="#">Research Award</a></li>
+                                        <li><a href="research/research-facilities.html">Research Facilities</a></li>
+                                        <li><a href="research/thrust-area.html">Thrust Area</a></li>
+                                        <li><a href="research/central-research-facility.html">Central Research Facility</a></li>
                                     </ul>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Collaboration</a></li>
-                                        <li><a href="#">R & D Projects</a></li>
-                                        <li><a href="#">Consultancy Projects</a></li>
+                                        <li><a id="collaboration" href="#">Collaboration</a></li>
+                                        <li><a id="r-d-project" href="#">R & D Projects</a></li>
+                                        <li><a id="consultancy-projects" href="#">Consultancy Projects</a></li>
                                     </ul>
                                 </div>
                                 
@@ -341,7 +354,7 @@
                                 
                                 <div class="row" >
                                     <div class="card border-0 col-sm-3 m-0" style="width: 18rem;">
-                                    <img class="card-img-top" src="./assets/main-building.jpg" alt="">
+                                    <img class="card-img-top" src="./assets/campus-life.jpg" alt="">
                                     </div>
                                     <div class="card border-left-0 border-top-0 border-bottom-0 col-sm-5 p-0" style="width: 18rem;">
                                     <div class="card-body text-justify">
@@ -349,7 +362,7 @@
                                     </div>
                                     </div>
                                     <ul class="list-unstyled col-sm-2">
-                                        <li><a href="#">Overview</a></li>
+                                        <li><a href="campus-life/campus-life.html">Overview</a></li>
                                         <li><a href="#">Events & attractions</a></li>
                                         <li><a href="#">Sports</a></li>
                                         <li><a href="#">Photo gallery</a></li>
@@ -369,6 +382,7 @@
                 </div>
                 </nav>
                 <!--/.navbar-->
+
             <div class="header-text"> 
                 <div class="container">
                     <h3>IIT ISM</h3>
@@ -389,10 +403,10 @@
  
                  <a href="#" >
                     
-                                <img src="assets/oval.jpg" alt="" class="img img-responsive image-card" />
+                                <img src="assets/tile1.jpg" alt="" class="img img-responsive image-card"  />
                   
                     <div class="caption">
-                        <h4>Lovely scene of IIT ISM</h4>
+                        <h4>Sports Day Celebrated</h4>
                     </div>
                 </a>
             
@@ -402,10 +416,10 @@
  
                  <a href="#" >
                     
-                                <img src="assets/oval.jpg" alt="" class="img img-responsive image-card" />
+                                <img src="assets/tile2.jpg" alt="" class="img img-responsive image-card" />
                   
                     <div class="caption">
-                        <h4>Lovely scene of IIT ISM</h4>
+                        <h4>Hackfest 2K18</h4>
                     </div>
                 </a>
             
@@ -414,7 +428,7 @@
 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
  
                 
-<div id="test" class="caption">
+<div id="events" class="caption">
                         <h5>Events</h5>
                         <div class="scroll ">
                             <div class="event-item">
@@ -424,12 +438,83 @@
                                     <h2>27</h2>
                             </div>
                             <div class="col-10 date">
-                                    <a href=""><h4>this is a notice to all of u !!!!!!!!!1 see it dude</h4></a>
+                                    <a href=""><h6>List of Participants for Science Academy Refresher Course on Concept of Fluid Dynamics (CFDA-2018)</h6></a>
                                     
                             </div>
                                
 
                             </div>
+
+
+
+
+
+
+
+
+
+     <div class="row">
+                            <div class="col-2 date " onload="resizeit(this)">
+                                    <h4>July</h4>
+                                    <h2>16</h2>
+                            </div>
+                            <div class="col-10 date">
+                                    <a href=""><h6>Science Academies’ Refresher Course on “Structural Geology, Tectonics, Thermodynamics and Metamorphic Petrology</h6></a>
+                                    
+                            </div>
+                               
+
+                            </div>
+
+
+
+
+
+
+    <div class="row">
+                            <div class="col-2 date " onload="resizeit(this)">
+                                    <h4>Aug</h4>
+                                    <h2>02</h2>
+                            </div>
+                            <div class="col-10 date">
+                                    <a href=""><h6>Science Academy’s Refresher Course on Concept of Fluid Dynamics and Applications (CFDA-2018)</h6></a>
+                                    
+                            </div>
+                               
+
+                            </div>
+
+
+
+
+
+
+     <div class="row">
+                            <div class="col-2 date " onload="resizeit(this)">
+                                    <h4>Sept</h4>
+                                    <h2>08</h2>
+                            </div>
+                            <div class="col-10 date">
+                                    <a href=""><h6>List of Participants for Science Academy Refresher Course on Concept of Fluid Dynamics (CFDA-2018)</h6></a>
+                                    
+                            </div>
+                               
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -458,10 +543,10 @@
  
                  <a href="#" >
                     
-                                <img src="assets/main-building.jpg" alt="" class="img img-responsive image-card" />
+                                <img src="assets/tile3.jpg" alt="" class="img img-responsive image-card" />
                   
                     <div class="caption">
-                        <h4>Lovely scene of IIT ISM</h4>
+                        <h4>Some Recent News </h4>
                     </div>
                 </a>
             
@@ -471,10 +556,10 @@
  
                  <a href="#" >
                     
-                                <img src="assets/main-building.jpg" alt="" class="img img-responsive image-card" />
+                                <img src="assets/tile4.jpg" alt="" class="img img-responsive image-card" />
                   
                     <div class="caption">
-                        <h4>Lovely scene of IIT ISM</h4>
+                        <h4>Blood Donation Camp</h4>
                     </div>
                 </a>
             
@@ -484,10 +569,10 @@
  
                  <a href="#" >
                     
-                                <img src="assets/main-building.jpg" alt="" class="img img-responsive image-card" />
+                                <img src="assets/tile5.jpg" alt="" class="img img-responsive image-card" />
                   
                     <div class="caption">
-                        <h4>Lovely scene of IIT ISM</h4>
+                        <h4>Hult Prize</h4>
                     </div>
                 </a>
             
@@ -499,45 +584,240 @@
 
 
 
-
-       
-
-    
-            
+<div class="add-button">
+    <div class="sub-button tl"></div>
 
 
-
-
-
-
-
-
+  </div>
 
         </div>
             
 
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close42" class="close" style="float: right;">&times;</span>
+    <h1> Annual report</h1>
+    <div class="collapsible"><h3>English Version</h3></div>
+    <div class="content">
+        <a href="">2016-17</a><br>
+        <a href="">2015-16</a><br>
+        <a href="">2014-15</a><br>
+        <a href="">2013-14</a><br>
+        <a href="">2012-13</a><br>
+     </div>
+ <div class="collapsible"><h3>Hindi Version</h3></div>
+    <div class="content">
+        <a href="">2016-17</a><br>
+        <a href="">2015-16</a><br>
+        <a href="">2014-15</a><br>
+        <a href="">2013-14</a><br>
+        <a href="">2012-13</a><br>
+     </div>
+    </div>
+</div>
+
+<!-- governing body dialog box -->
+<div id="myModal2" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close244" class="close" style="float: right;">&times;</span>
+    <h1> Governing Body</h1>
+
+ <div ><a href="administration/general-council.html"><h4>General Council</h4></a></div>
+
+ <div ><h4><a href="administration/bog.html">BOG</a></h4></div>
+
+<div > <a href="administration/finance-committee.html"><h4>Finance Committee</h4></a> </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+<!-- Academic administration dialog box -->
+
+<div id="myModal3" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close3" class="close" style="float: right;">&times;</span>
+    <h1> Academic Administration</h1>
+
+ <div ><a href=""><h4>Senate</h4></a></div>
+
+ <div ><h4><a href="">Deans</a></h4></div>
+
+<div > <a href=""><h4>PCE</h4></a> </div>
+<div > <a href=""><h4>Associate Deans</h4></a> </div>
+<div > <a href=""><h4>HOD's</h4></a> </div>
+<div > <a href=""><h4>Librarians</h4></a> </div>
+
+
+
+
+
+    </div>
+</div>
+<!-- General administration dialog box -->
+
+
+<div id="myModal4" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close4" class="close" style="float: right;">&times;</span>
+    <h1> General Administration</h1>
+
+ <div ><a href=""><h4>General Council</h4></a></div>
+
+ <div ><h4><a href="">BOG</a></h4></div>
+
+<div > <a href=""><h4>Finance Committee</h4></a> </div>
+
+
+
+    </div>
+</div>
+
+<!-- Research Award dialog box -->
+
+
+<div id="myModal5" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close5" class="close" style="float: right;">&times;</span>
+    <h1> Research Award</h1>
+
+ <div ><a href=""><h4>General Council</h4></a></div>
+
+ <div ><h4><a href="">BOG</a></h4></div>
+
+<div > <a href=""><h4>Finance Committee</h4></a> </div>
+
+
+
+    </div>
+</div>
+
+
+<!-- Collaboration dialog box -->
+
+
+<div id="myModal6" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close6" class="close" style="float: right;">&times;</span>
+    <h1> Collaboration</h1>
+
+ <div ><a href=""><h4>General Council</h4></a></div>
+
+ <div ><h4><a href="">BOG</a></h4></div>
+
+<div > <a href=""><h4>Finance Committee</h4></a> </div>
+
+
+
+    </div>
+</div>
+
+<!-- R&D Projects dialog box -->
+
+
+<div id="myModal7" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close7" class="close" style="float: right;">&times;</span>
+    <h1> R&D Projects</h1>
+
+ <div ><a href=""><h4>General Council</h4></a></div>
+
+ <div ><h4><a href="">BOG</a></h4></div>
+
+<div > <a href=""><h4>Finance Committee</h4></a> </div>
+
+
+
+    </div>
+</div>
+
+<!-- Consultancy projects dialog box -->
+
+
+<div id="myModal8" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close8" class="close" style="float: right;">&times;</span>
+    <h1> Consultancy projects</h1>
+
+ <div ><a href=""><h4>General Council</h4></a></div>
+
+ <div ><h4><a href="">BOG</a></h4></div>
+
+<div > <a href=""><h4>Finance Committee</h4></a> </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
         <div class="container pt-5">
             <div class="row">
                 <div class="col-12">
-                    <h3>Content...</h3>
-                    <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-                        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-                        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+                    <div class="homepage-content-headding"><h3>About IIT (ISM) Dhanbad</h3></div>
+                    <p>Situated in the heart of the country’s prime coking coal belt, 260 kms from Kolkata with a campus spread over an area of 393 acres, (with 218 acres of existing campus and 175 acres under acquisition and development) the fully residential IIT(ISM) has all the facilities of world class academic institute. What started as an institution to impart mining education has graduated into a full-fledged technical institution of international acclaim offering a host of programmes like B. Tech., M. Tech., M. Sc. Tech., and MBA. In addition the School offers M. Phil. and full as well as part time Ph. D. programmes, while also awarding D.Sc. as the highest degree of academic achievement.</p>
         
-                    <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-                        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-                        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-                    <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics,
-                        raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
-                        Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-        
-                    <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-                        readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies,
-                        forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+                  <p>The serene campus comprises academic buildings, student hostels and 100% residential facilities for faculty and staff apart from other infrastructure facilities for a cosmopolitan community. The School has links with reputed universities and institutes across the globe and has an alumni base all over the world. The School today is making foray into the newer areas of academic endeavours in tune with the changing times.</p>
+                  <br>
+                  <br>
+                  <br>
+
                 </div>
             </div>
             <!--/row-->
@@ -556,11 +836,15 @@
         <div class="hidden-xs hidden-sm  col-md-1 col-lg-1 col-xl-1"></div>
         </div>
         </div>
+        </div>
+        <div class="container-fluid">
+
                 <div class="row"  >
-                  <div class="display-large col-md-2 col-lg-2 col-xl-2 events-manager ">      
+                  <div class="display-large col-md-3 col-lg-3 col-xl-3 events-manager ">  
+                                    
                   </div>  
           
-                  <div  class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 events-manager">   
+                  <div  class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 events-manager">   
                   <div id="notices" class="">     
                     <h3 > Notices </h3>
                     </div>
@@ -568,70 +852,58 @@
                     <div class=" container  notice-font-size ">
                     <div id="notices-inner-stuff" class="row notice-view">
                     <div  class=" col-12 notice">
-                    <a href=""> <h4>
+                    <a href=""> 
+                    this is just a link for a sraw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                        Shabby chic lomohort notice to be added dynamically</a>
+                    </div>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
+                    this is just a link for a short noraw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                        Shabby chic lomotice to be added dynamically</a>
+                    </div>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
+                    this is just a link for a short notice to be added dynamically and maybe a very big one this is just a link for a short notice to be added dynamically and maybe a very big onethis is just a link for a short notice to be added dynamically and maybe a very big onethis is just a link for a short notice to be added dynamically and maybe a very big one</a>
+                    </div>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
+                   raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                        Shabby chic lomo this is just a link for a short notice to be added dynamically</a>
+                    </div>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
+                    this is just a raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                        Shabby chic lomolink for a short notice to be added dynamically</a>
+                    </div>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
+                    thisraw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation.
+                        Shabby chic lomo is just a link for a short notice to be added dynamically</a>
+                    </div>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
                     this is just a link for a short notice to be added dynamically</a>
                     </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
                     this is just a link for a short notice to be added dynamically</a>
                     </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
                     this is just a link for a short notice to be added dynamically</a>
                     </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
                     this is just a link for a short notice to be added dynamically</a>
                     </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
                     this is just a link for a short notice to be added dynamically</a>
                     </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
+                      <div  class=" col-12 notice">
+                    <a href=""> 
                     this is just a link for a short notice to be added dynamically</a>
                     </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    <div class="col-12">
-                    <a href=""> <h4>
-                    this is just a link for a short notice to be added dynamically</a>
-                    </div>
-                    
                     
 
 
@@ -645,21 +917,116 @@
 
                   </div>  
           
-                  <div class=" display-large  col-md-2 col-lg-2 col-xl-2 events-manager ">        
+                  <div class="   col-md-12 col-lg-12 col-xl-3 events-manager ">   
+                  <div class="quick-links">
+                    <div class="quick-links-list" style="background-color: #FFB140"><h3>Quick Links</h3></div>
+
+                     <a href=""><div class="quick-links-list">convo 2018</div></a>
+                     <a href=""><div class="quick-links-list">nirf data</div></a>
+                     <a href=""><div class="quick-links-list"> Digital Edu. E-Content</div></a>
+                     <a href=""><div class="quick-links-list">Skill India Programme</div></a>
+                     <a href=""><div class="quick-links-list">Openings @IITISM</div></a>
+                     <a href=""><div class="quick-links-list">Seminar & Workshops</div></a>
+                     <a href=""><div class="quick-links-list"> Tender</div></a>
+                     <a href=""><div class="quick-links-list">NIRF DATA (Old)</div></a>
+
+                     <a href=""><div class="quick-links-list">On Line Payment Link</div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>     
                   </div>  
                 </div>
           
               </div>     
-                        
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-                    blabla stuff
+
+
+
+
+
+
+
+              <!--  
+                   
+NOTE: its a template of dialog view
+
+
+<div class="btn btn-primary" id="myBtn4266">COOL</div>
+<div id="myModal4266" class="modal">
+
+  <div class="modal-content">
+
+    <span id="close4266" class="close" style="float: right;">&times;</span>
+    <h2> Annual report</h2>
+
+<div class="collapsible">Open Collapsible</div>
+<div class="content">
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+
+</div>
+
+</div>
+
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+
+</div>
+<button class="collapsible">Open Collapsible</button>
+<div class="content">
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+<a href="">cool</a>
+
+</div>
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+                  -->
+
         <footer>
             <div class="container-fluid">
             <div class="row">
@@ -669,8 +1036,8 @@
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     
                     <strong class="font-weight-light" style="font-size:1.8em; color:#ffffff">IIT (ISM) Dhanbad</strong><br>
-                   <a href=""> <img class="logo-links" src="assets/facebook.png"></a>
-                   <a href=""> <img class="logo-links" src="assets/twitter.png"></a><br><br>
+                   <a href="https://www.facebook.com/IITISMDHAN" target="_blank"> <img class="logo-links" src="assets/facebook.png"></a>
+                   <a href="https://twitter.com/iitism_dhanbad" target="_blank"> <img class="logo-links" src="assets/twitter.png"></a><br><br>
 
                     
 
@@ -687,7 +1054,7 @@ Jharkhand, India, 826004<br>
 Phone- 0326-2235001 ,2235004<br>
 Fax- 0326-2296563<br>
 </li>
-              <a href=""> Telephone Directory</a>
+              <a href="pdf/TD.pdf"  target="_blank"> Telephone Directory</a>
                     
                 </ul> 
                  </div>
@@ -695,8 +1062,9 @@ Fax- 0326-2296563<br>
 
              </div>
              </div>
+             <div class="copyright">
             Copyright © Indian Institute of Technology ( Indian School of Mines ) Dhanbad
-            
+            </div>
         </footer>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
