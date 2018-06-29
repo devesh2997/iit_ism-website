@@ -33,7 +33,27 @@
 
         public function getNotices(){
             date_default_timezone_set('Asia/Kolkata');
-            $cur_time = date('Y-m-d H:i:s');
+            $cur_time = strtotime(date('Y-m-d H:i:s'));
+
+            $query = "SELECT * FROM notice";
+            $query_run = mysqli_query($this->conn,$query);
+            if($query_run){
+                $response["notices"] = array();
+                while($query_row = mysqli_fetch_assoc($query_run)){
+                    $notice_start_time = strtotime($query_row['s_time']);
+                    $notice_end_time = strtotime($query_row['e_time']);
+                    if($cur_time >= $notice_start_time && $cur_time < $notice_end_time){
+                        $notice["title"]=$query_row['title'];
+                        $notice["department"]=$query_row['depart'];
+                        $notice["e_id"]=$query_row['e_id'];
+                        $notice["path"]=$query_row['path'];
+                        array_push($response["notices"],$notice);
+                    }
+                }
+                return $response;
+            }else{
+                return false;
+            }
         }
 
 
